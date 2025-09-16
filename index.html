@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesenvolTho - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-link" aria-label="Página inicial de DesenvolTho">
+                    <svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M20 1 L1 25 L20 49" stroke="var(--slate-900)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M40 1 L59 25 L40 49" stroke="var(--primary-blue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="logo-text">Desenvol<span class="logo-text-highlight">Tho</span></span>
+                </a>
+                <p class="tagline">Soluções práticas para problemas reais</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao meu laboratório de inovação</h2>
+                <p>A central de projetos e portfólio da marca DesenvolTho. Uma vitrine para ferramentas online que resolvem problemas de produtividade, gestão para pequenas empresas e startups.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <h3>Projetos em Destaque</h3>
+                <div class="search-container">
+                    <input type="search" id="project-search" placeholder="Buscar projetos por nome ou descrição..." aria-label="Buscar projetos por nome ou descrição">
+                </div>
+                <div class="project-grid">
+                    <div class="card">
+                        <div class="card-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/><path d="m9 11 3 3 3-3"/></svg>
+                        </div>
+                        <h4>Gênio Criativo</h4>
+                        <p>Um assistente de IA para gerar ideias e roteiros para vídeos curtos.</p>
+                        <a href="https://desenvoltho-hub.github.io/genio-criativo" class="btn" target="_blank" rel="noopener noreferrer">Acessar</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </div>
+                        <h4>Dev Snippets</h4>
+                        <p>Uma biblioteca de snippets de código para agilizar o desenvolvimento.</p>
+                        <a href="https://desenvoltho-hub.github.io/dev-snippets" class="btn" target="_blank" rel="noopener noreferrer">Acessar</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M9 12h6"/><path d="M12 9v6"/></svg>
+                        </div>
+                        <h4>Ícones Rápidos</h4>
+                        <p>Um gerador de ícones SVG simples para designers e desenvolvedores.</p>
+                        <a href="https://desenvoltho-hub.github.io/icones-rapidos" class="btn" target="_blank" rel="noopener noreferrer">Acessar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 DesenvolTho</p>
+            <p>Entre em contato em <a href="mailto:desenvoltho@gmail.com">desenvoltho@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
